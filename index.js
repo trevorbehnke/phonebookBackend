@@ -1,11 +1,11 @@
 // const { response } = require("express");
 const express = require("express");
-const app = express();
-
 const cors = require("cors");
 
-app.use(cors());
+const app = express();
 
+app.use(express.static("build"));
+app.use(cors());
 app.use(express.json());
 
 // var morgan = require("morgan");
