@@ -8,8 +8,8 @@ POST http://localhost:3001/api/persons
 content-type: application/json
 
 {
-  "name": "TBone Jenkins",
-  "number": ""
+  "name": "THE Mr. TBone Jenkins",
+  "number": "123-456-7890"
   }
 
 ###
@@ -17,6 +17,6 @@ PUT http://localhost:3001/api/persons/6137fa267186a3fc0ba41b71
 content-type: application/json
 
 {
-  "name": "THE Mr. TBone Jenkins",
+  "name": "Mr. TBizzle",
   "number": "123-456-7890"
   }
