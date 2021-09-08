@@ -1,7 +1,7 @@
-GET http://localhost:3001/api/persons/4
+GET http://localhost:3001/api/persons/6137dd6cc2033bd392c1e16d
 
 ###
-DELETE http://localhost:3001/api/persons/4
+DELETE http://localhost:3001/api/persons/6137dd6cc2033bd392c1e16d
 
 ###
 POST http://localhost:3001/api/persons
@@ -9,5 +9,14 @@ content-type: application/json
 
 {
   "name": "TBone Jenkins",
+  "number": "123-456-7890"
+  }
+
+###
+PUT http://localhost:3001/api/persons/6137fa267186a3fc0ba41b71
+content-type: application/json
+
+{
+  "name": "THE Mr. TBone Jenkins",
   "number": "123-456-7890"
   }
